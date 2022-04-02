@@ -3,7 +3,7 @@
 
 ## COMMANDE WINDOWS
 	Liens:
-	  https://docs.microsoft.com/fr-fr/windows-server/administration/windows-commands/windows-commands
+  	https://docs.microsoft.com/fr-fr/windows-server/administration/windows-commands/windows-commands
 	
   Commandes:
     - pwd : pour connaitre le directory
@@ -17,7 +17,6 @@
 	- Q : touche clavier "Q" pour sortir des log si trop long par exemple
 
 	- Verifier la version de git
-		
 		Commandes:
       		git version
 
