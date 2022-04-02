@@ -1,4 +1,6 @@
 # Git-Cheat-Sheet
+![Diagramme](/diagram.png)
+
 ## COMMANDE WINDOWS
 	Liens:
 	  https://docs.microsoft.com/fr-fr/windows-server/administration/windows-commands/windows-commands
@@ -484,5 +486,3 @@
 		touch .gitignore
 		touch ~/.gitignore
 		git config --global core.excludesFile ~/.gitignore
-		
-![Diagramme](/diagram.png)
