@@ -234,7 +234,6 @@
 			git diff --cached : permet de revoir les diff apres indexage
 
 	- Consulter les modifications enregistrés lors du commit spécifié.
-
 		Montre les modifications enregistrés lors du commit spécifié.
 		Afficher des détails étendus sur les objets Git tels que les objets blob, les arborescences, les balises et les validations
 		
