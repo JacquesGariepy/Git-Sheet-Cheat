@@ -484,3 +484,5 @@
 		touch .gitignore
 		touch ~/.gitignore
 		git config --global core.excludesFile ~/.gitignore
+		
+![GitHub Logo](/images/github-logo.png)
