@@ -472,13 +472,14 @@
 	git checkout -b 752c14ea195c369bac3c3b7896975ee9fd15eeb7 : permet de créer une branche avec le tag sha-1 et se deplacer dessus
 
 ## Nettoyage
-	La commande git prune est un utilitaire d’entretien interne qui nettoie les objets Git inaccessibles ou « orphelins ». Les objets inaccessibles sont ceux qui sont inaccessibles par n’importe quelle réf.
+	La commande git prune est un utilitaire d’entretien interne qui nettoie les objets Git inaccessibles ou « orphelins ». Les objets inaccessibles sont ceux qui sont inaccessibles par n’importe quelle réf. Dans la plupart des cas, les utilisateurs n’auront pas besoin d’appeler git prune directement, mais devraient plutôt appeler git gc, qui gère l’élagage ainsi que de nombreuses autres tâches d’entretien ménager.
 	
 	Liens :
 	https://git-scm.com/docs/git-prune
 	https://www.atlassian.com/git/tutorials/git-prune
 	
 	Commandes:
+	git gc
 	git prune -n --dry-run (Il n’exécutez pas la commande, il montre une sortie de ce qu’il fera)
 	git prune -v --verbose (Afficher la sortie de tous les objets et actions effectués) 
 	git prune $(cd ../another && git rev-parse --all)
