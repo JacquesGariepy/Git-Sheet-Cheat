@@ -471,6 +471,21 @@
 	git checkout 752c14ea195c369bac3c3b7896975ee9fd15eeb7 : un « checkout » désigne un basculement entre différentes versions d'une entité cible
 	git checkout -b 752c14ea195c369bac3c3b7896975ee9fd15eeb7 : permet de créer une branche avec le tag sha-1 et se deplacer dessus
 
+## Nettoyage
+	La commande git prune est un utilitaire d’entretien interne qui nettoie les objets Git inaccessibles ou « orphelins ». Les objets inaccessibles sont ceux qui sont inaccessibles par n’importe quelle réf.
+	
+	Liens :
+	https://git-scm.com/docs/git-prune
+	https://www.atlassian.com/git/tutorials/git-prune
+	
+	Commandes:
+	git prune -n --dry-run (Il n’exécutez pas la commande, il montre une sortie de ce qu’il fera)
+	git prune -v --verbose (Afficher la sortie de tous les objets et actions effectués) 
+	git prune $(cd ../another && git rev-parse --all)
+	git prune --progress (Affiche la sortie qui indique la progression de l’élagage)
+	git prune --expire <time> (Forcer l’expiration des objets passés)
+	git prune <head> (La spécification d’un conservera toutes les options de cette référence de tête)
+	
 ## IGNORER DES ÉLÉMENTS (.gitignore)
 	Fichier qui spécifie les fichiers intentionnellement non suivis à ignorer
 	Les fichiers ignorés sont généralement des artefacts de build et des fichiers générés par la machine qui sont dérivés de votre dépôt source ou qui ne devraient pas être commités. 
