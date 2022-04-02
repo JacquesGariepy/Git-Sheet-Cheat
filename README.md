@@ -131,7 +131,7 @@
 
 	- Montre les modifications du fichier non indexé, pour un fichier indexé, ajouter l’option --staged.
 		
-		Commande:
+		Commandes:
 			git diff​ --staged ​​<file>
 			git diff​ --staged ​index.html
 		
@@ -321,7 +321,7 @@
 		Liens:
 			https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase
 		
-		Commande:
+		Commandes:
 			git rebase –i HEAD~n
 
 ## TRAVAILLER EN BRANCHE
