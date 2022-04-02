@@ -6,19 +6,20 @@
 	  https://docs.microsoft.com/fr-fr/windows-server/administration/windows-commands/windows-commands
 	
   Commandes:
-    pwd : pour connaitre le directory
-    mkdir : pour créer un repertoire
-    ls : pour connaitre contenu du repertoire ou ls nomrep
-      ls -la pour afficher que les dossier caché
-    cd : deplacer ex.: cd nomrep 
-    cd.. : pour reculer d'un rep
+    - pwd : pour connaitre le directory
+    - mkdir : pour créer un repertoire
+    - ls : pour connaitre contenu du repertoire ou ls nomrep
+    - ls -la pour afficher que les dossier caché
+    - cd : deplacer ex.: cd nomrep 
+    - cd.. : pour reculer d'un rep
 
 ## COMMANDE GIT DIVERS
-	Q : touche clavier "Q" pour sortir des log si trop long par exemple
+	- Q : touche clavier "Q" pour sortir des log si trop long par exemple
+
 	- Verifier la version de git
 		
-    Commandes:
-      git version
+		Commandes:
+      			git version
 
 ## CONFIGURATION
 
