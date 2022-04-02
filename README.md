@@ -18,7 +18,7 @@
 
 	- Verifier la version de git
 		Commandes:
-      		git version
+		git version
 
 ## CONFIGURATION
 
