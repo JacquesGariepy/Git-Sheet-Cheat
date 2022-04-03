@@ -30,9 +30,7 @@
 		
 		- Définit le nom de l’utilisateur
 			Commandes:
-			```
 			git config --global user.name "jacques gariepy"
-			```
 	
 		- Définit l’email de l’utilisateur
 			Commandes:
